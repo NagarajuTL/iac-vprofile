@@ -55,8 +55,7 @@ jobs:
           terraform plan \
             -out=tfplan \
             -input=false \
-            -var="aws_region=${{ env.AWS_REGION }}" \
-            -var="eks_cluster=${{ env.EKS_CLUSTER }}"
+            
       
       
     
